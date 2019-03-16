@@ -1,5 +1,4 @@
-# Material Starter Kit
-## A file template to help you get started with Material Components for the Web
+# Guacamole - mockups
 
 This file template sets up the `webpack` configuration and installs the `npm` packages required to get Material Components for the Web up and running. It simply displays a Material button that says "Hello World"!
 
