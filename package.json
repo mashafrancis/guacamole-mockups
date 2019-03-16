@@ -1,0 +1,28 @@
+{
+  "name": "kari4me",
+  "version": "1.0.0",
+  "main": "index.html",
+  "description": "An online platform for travelers space",
+  "scripts": {
+    "start": "parcel ./index.html --open",
+    "build": "parcel build ./index.html"
+  },
+  "source": "index.js",
+  "author": "Francis Masha",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mashafrancis/guacamole-ui.git"
+  },
+  "devDependencies": {
+    "sass": "^1.17.2",
+    "parcel-bundler": "^1.12.2"
+  },
+  "dependencies": {
+    "@material/drawer": "^1.0.1",
+    "@material/list": "^1.0.1",
+    "@material/textfield": "^1.0.1",
+    "@material/top-app-bar": "^1.0.1",
+    "material-components-web": "^1.0.1"
+  }
+}

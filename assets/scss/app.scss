@@ -1,0 +1,332 @@
+// Material Theming
+
+// Define theme variables.scss before importing any MDC Web component styles
+// $mdc-theme-primary: midnightblue;
+
+// Import the styles for each MDC Web component
+@import "@material/textfield/mdc-text-field";
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/drawer/mdc-drawer";
+@import "@material/list/mdc-list";
+
+// Check out the MDC Web documentation for how to use MDC Sass mixins:
+// https://github.com/material-components/material-components-web
+// .foo-button {
+//   @include mdc-button-ink-color(lightblue);
+//   @include mdc-states(lightblue);
+// }
+
+body, html {
+    font-family: Google Sans, Roboto, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    min-height: 100vh;
+    color: #202124
+}
+
+.carryforme-interface-page .problem-description h3, .carryforme-interface-page .problem-description h4, .landing-page-section.hero--codejamio .hero-title, h1, h2, h3, h4, p {
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500
+}
+
+button {
+    text-transform: none
+}
+
+.container {
+    height: 100%
+}
+
+@media only screen and (min-width: 550px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap
+    }
+}
+
+.mdc-drawer .drawer-sub-nav {
+    background-color: #f1f3f4
+}
+
+.mdc-drawer .drawer-sub-nav a {
+    padding-left: 3rem
+}
+
+.logo {
+    font-size: 22px
+}
+
+.with {
+    font-weight: 400;
+    opacity: .7
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.mobile {
+    display: block
+}
+
+@media only screen and (min-width: 550px) {
+    .mobile {
+        display: none
+    }
+}
+
+.desktop {
+    display: block
+}
+
+@media only screen and (max-width: 1100px) {
+    .desktop {
+        display: none
+    }
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+
+.carryforme-nav {
+    background-color: #fff;
+    min-height: 4rem
+}
+
+.carryforme-nav .mdc-toolbar-menu-icon {
+    color: #212121;
+    display: none
+}
+
+@media (min-width: 540px) and (max-width: 799px) {
+    .carryforme-nav .mdc-toolbar-menu-icon {
+        display: block
+    }
+}
+
+@media (max-width: 539px) {
+    .carryforme-nav .mdc-toolbar-menu-icon {
+        display: block
+    }
+}
+
+.carryforme-nav .mdc-top-app-bar__section {
+    padding: 0
+}
+
+.carryforme-nav .countdown-row.mdc-top-app-bar__row {
+    min-height: 3rem;
+    color: #202124
+}
+
+@media (max-width: 539px) {
+    .carryforme-nav .countdown-row.mdc-top-app-bar__row {
+        display: none
+    }
+}
+
+.carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-row__actions, .carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-row__content {
+    padding: 0 1.25rem
+}
+
+.carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-container {
+    display: flex
+}
+
+.carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-container .medium {
+    font-weight: 500
+}
+
+.carryforme-interface-page .problem-description .carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-container h3.subtitle, .carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-container .carryforme-interface-page .problem-description h3.subtitle, .carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-container h4.subtitle {
+    font-size: .875rem
+}
+
+@media (min-width: 540px) and (max-width: 799px) {
+    .carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-container__desktop {
+        display: none
+    }
+}
+
+@media (max-width: 539px) {
+    .carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-container__desktop {
+        display: none
+    }
+}
+
+@media (min-width: 1176px) {
+    .carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-container__tablet {
+        display: none
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1175px) {
+    .carryforme-nav .countdown-row.mdc-top-app-bar__row .countdown-container__tablet {
+        display: none
+    }
+}
+
+.carryforme-nav .mdc-top-app-bar__row {
+    min-height: 4rem
+}
+
+@media (min-width: 540px) and (max-width: 799px) {
+    .carryforme-nav .mdc-tab-scroller.carryforme-navigation {
+        display: none
+    }
+}
+
+@media (max-width: 539px) {
+    .carryforme-nav .mdc-tab-scroller.carryforme-navigation {
+        display: none
+    }
+}
+
+.carryforme-nav .mdc-tab-scroller__scroll-content {
+    min-height: 4rem
+}
+
+.carryforme-nav .mdc-tab-scroller .mdc-tab {
+    text-transform: none;
+    height: 100%;
+    padding: 0 1rem
+}
+
+.carryforme-nav .mdc-tab-scroller .mdc-tab--active .mdc-tab__text-label {
+    color: unset
+}
+
+.carryforme-nav .mdc-tab-scroller .mdc-tab:hover .mdc-tab__text-label {
+    opacity: 1
+}
+
+.carryforme-nav .mdc-tab-scroller .mdc-tab__text-label {
+    color: #212121;
+    font-weight: 400
+}
+
+.carryforme-nav .mdc-tab-scroller .mdc-tab .mdc-tab__ripple::after, .carryforme-nav .mdc-tab-scroller .mdc-tab__ripple::before {
+    background-color: unset
+}
+
+.carryforme-nav .mdc-tab-scroller .mdc-tab.mdc-button::after, .carryforme-nav .mdc-tab-scroller .mdc-tab.mdc-button::before {
+    background-color: unset
+}
+
+.carryforme-nav .mdc-tab-scroller .mdc-button {
+    border-radius: unset
+}
+
+.carryforme-nav .nav-actions {
+    display: flex
+}
+
+.carryforme-nav .nav-actions a:first-of-type {
+    white-space: nowrap
+}
+
+@media (min-width: 540px) and (max-width: 799px) {
+    .carryforme-nav .nav-actions a:first-of-type {
+        display: none
+    }
+}
+
+@media (max-width: 539px) {
+    .carryforme-nav .nav-actions a:first-of-type {
+        display: none
+    }
+}
+
+.carryforme-nav .nav-actions .mdc-button {
+    margin-right: 1rem
+}
+
+.carryforme-nav .carryforme-sign-in a {
+    margin-right: 2rem
+}
+
+.carryforme-nav .carryforme-sign-in .mdc-button.secondary, .carryforme-nav .carryforme-sign-in .sign-in {
+    margin-right: 1.125rem
+}
+
+.carryforme-nav .mdc-top-app-bar__title {
+    line-height: normal;
+    overflow: visible;
+    text-overflow: unset;
+    margin-right: 1.5rem
+}
+
+@media (min-width: 540px) and (max-width: 799px) {
+    .carryforme-nav .mdc-top-app-bar__title {
+        padding-left: 0
+    }
+}
+
+@media (max-width: 539px) {
+    .carryforme-nav .mdc-top-app-bar__title {
+        padding-left: 0
+    }
+}
+
+.carryforme-nav .mdc-top-app-bar__title > a {
+    color: #212121 !important;
+    min-width: 5em;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: -.05rem
+}
+
+@media (min-width: 540px) and (max-width: 799px) {
+    .carryforme-nav .mdc-top-app-bar__title > a {
+        font-size: 1.25rem
+    }
+}
+
+@media (max-width: 539px) {
+    .carryforme-nav .mdc-top-app-bar__title > a {
+        font-size: 1.25rem
+    }
+}
+
+.carryforme-nav .mdc-top-app-bar__title > a ~ .mdc-top-app-bar__navigation-icon {
+    color: #212121
+}
+
+.carryforme-nav.mdc-top-app-bar {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12)
+}
+
+.expand-enter-active, .expand-leave-active {
+    transition: height .4s cubic-bezier(.4, 0, .2, 1);
+    overflow: hidden
+}
+
+.expand-enter, .expand-leave-to {
+    height: 0
+}
+
+ul.bullets {
+    padding-left: 2rem;
+    list-style: none
+}
+
+ul.bullets li::before {
+    color: #1967d2;
+    content: "\2022";
+    padding-right: .5rem;
+    position: relative;
+    top: 0
+}
+

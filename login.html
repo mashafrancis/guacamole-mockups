@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Francis Masha">
+
+  <!-- Title Page-->
+  <title>Register</title>
+
+  <!-- Required styles for MDC Web -->
+  <link rel="stylesheet"
+        href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+
+
+  <!-- Fontfaces CSS-->
+  <link href="vendor/mdi-font/css/material-design-iconic-font.min.css"
+        rel="stylesheet" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,400i,500,500i,700,700i|Google+Sans+Display:400,400i,500,500i,700,700i&amp;subset=all"
+        rel="stylesheet">
+  <link rel="stylesheet"
+        href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:300,400|Product+Sans:400&amp;lang=en">
+
+  <!--Material Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+  <link rel="icon" type="image" href="https://res.cloudinary.com/mashafrancis/image/upload/v1551124424/kari4me/favicon.png">
+
+  <!-- import the Material stylesheet -->
+  <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+
+<body class="mdc-typography" data-gr-c-s-loaded="true">
+<div class="register">
+  <!--==========================
+    Header
+    ============================-->
+  <header>
+    <a href="index.html">
+      <span class="register-toolbar-actions">
+        <button aria-label="Go back to home page"
+                class="mdc-icon-button material-icons">arrow_back</button>
+        <div class="register__logo">
+          <span class="product-logo-text">Home</span>
+        </div>
+      </span>
+    </a>
+
+    <div class="mini-account-menu">
+      <div class="mini-account-menu--desktop">
+        <a href="register.html">
+          <span class="register-toolbar-actions">
+            <div class="register__logo">
+              <span class="product-logo-text">Register</span>
+            </div>
+            <button aria-label="Go back to home page"
+                    class="mdc-icon-button material-icons">arrow_forward
+            </button>
+          </span>
+        </a>
+      </div>
+
+      <div class="mini-account-menu--mobile">
+        <a href="register.html">
+          <span class="register-toolbar-actions">
+            <div class="register__logo">
+              <span class="product-logo-text">Register</span>
+            </div>
+            <button aria-label="Go back to home page"
+                    class="mdc-icon-button material-icons">arrow_forward
+            </button>
+          </span>
+        </a>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+      <div class="mdc-layout-grid__cell grid-start-5 mdc-layout-grid__cell--span-4-desktop-hd mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-7-desktop mdc-layout-grid__cell--align-middle">
+        <h1 class="headline-2">Login to account</h1>
+      </div>
+
+      <div class="mdc-layout-grid__cell register__section grid-start-5 mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--align-middle">
+        <div class="form-grid">
+
+          <div class="form-cell">
+            <div outline="">
+              <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--fullwidth mdc-text-field--with-trailing-icon">
+                <i class="material-icons mdc-text-field__icon">tag_faces</i>
+                <input id="1" placeholder="" aria-controls="1-helper-text"
+                       aria-describedby="13-helper-text" required="required"
+                       type="text" class="mdc-text-field__input">
+                <div class="mdc-notched-outline mdc-notched-outline--upgraded">
+                  <div class="mdc-notched-outline__leading"></div>
+                  <div class="mdc-notched-outline__notch" style=""><label
+                          for="1" class="mdc-floating-label"
+                          style="">Username</label></div>
+                  <div class="mdc-notched-outline__trailing"></div>
+                </div>
+              </div>
+              <p id="1-helper-text" aria-hidden="true"
+                 class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg">
+                Username is required</p></div>
+          </div>
+
+          <div class="form-cell">
+            <div outline="">
+              <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--fullwidth mdc-text-field--with-trailing-icon">
+                <i class="material-icons mdc-text-field__icon">remove_red_eye</i>
+                <input id="3" placeholder=""
+                       aria-controls="3-helper-text"
+                       aria-describedby="3-helper-text" required="required"
+                       type="password" class="mdc-text-field__input">
+                <div class="mdc-notched-outline mdc-notched-outline--upgraded">
+                  <div class="mdc-notched-outline__leading"></div>
+                  <div class="mdc-notched-outline__notch" style="">
+                    <label for="3" class="mdc-floating-label"
+                           style="">Password</label>
+                  </div>
+                  <div class="mdc-notched-outline__trailing"></div>
+                </div>
+              </div>
+              <p id="3-helper-text" aria-hidden="true"
+                 class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg">
+                Password is required</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="mdc-layout-grid__cell register__section grid-start-5 mdc-layout-grid__cell--span-5-tablet mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--align-middle">
+        <div class="form-grid">
+
+          <div class="form-cell">
+            <button class="mdc-button big-round-corner-button mdc-button--raised mdc-ripple-upgraded"
+                    id="cc-register">
+              <span class="mdc-button__label">Login</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Required MDC Web JavaScript library -->
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>

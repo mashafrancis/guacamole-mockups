@@ -1,0 +1,121 @@
+.mdc-button {
+    text-transform: none
+}
+
+.mdc-button.secondary {
+    width: auto
+}
+
+#navigation-drawer .mdc-drawer-list {
+    padding: 0
+}
+
+#navigation-drawer .mdc-drawer-list .mdc-drawer-item {
+    height: 4rem
+}
+
+#navigation-drawer .mdc-drawer-list .mdc-drawer-item:not(.mdc-list-item--activated)::before {
+    background-color: #fff
+}
+
+.register header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 6px 0
+}
+
+.register header .register-toolbar-actions {
+    display: inline-flex;
+    align-items: center
+}
+
+.register header .carryforme {
+    position: relative;
+    top: -5px
+}
+
+.register header .register__logo {
+    display: inline
+}
+
+.register header .register__logo h1 {
+    display: inline;
+    position: relative;
+    top: -5px
+}
+
+.register .headline-1 {
+    margin-bottom: 16px
+}
+
+.landing-page-section.hero--codejamio .register .hero-title, .register .headline-2, .register .landing-page-section.hero--codejamio .hero-title {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 50px
+}
+
+.register__section-copy {
+    padding-top: 12px
+}
+
+.register .mdc-select, .register .mdc-textfield-wrapper {
+    width: 100%
+}
+
+.register .mdc-checkbox-wrapper {
+    width: 100%
+}
+
+.register .mdc-checkbox-wrapper label {
+    margin-left: 0
+}
+
+.register .mdc-text-field--outlined + .mdc-text-field-helper-text--persistent {
+    margin-bottom: 1rem
+}
+
+.register .mdc-select {
+    margin-bottom: 8px;
+    margin-top: 1rem
+}
+
+.register .mdc-checkbox-wrapper {
+    margin-bottom: 8px
+}
+
+.register .mdc-text-field--invalid .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background {
+    border-color: #b00020
+}
+
+.register .mdc-text-field--fullwidth:not(.mdc-text-field--textarea) {
+    display: flex
+}
+
+.register .mdc-text-field--fullwidth:not(.mdc-text-field--textarea).mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__input {
+    padding-left: 48px;
+    padding-right: 16px
+}
+
+.register .mdc-text-field--fullwidth:not(.mdc-text-field--textarea) .mdc-text-field__input {
+    padding: 12px 16px 14px
+}
+
+.register .check-over-16 {
+    justify-content: space-between
+}
+
+.register .check-over-16 > div {
+    width: 100%
+}
+
+.register .phone-number-inputs {
+    display: flex
+}
+
+.register .phone-number-inputs .phone-country-code {
+    width: 40%
+}
+
+.register .phone-number-inputs .phone-number {
+    width: 60%;
+    padding-left: 5%
+}
